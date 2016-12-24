@@ -89,13 +89,13 @@
             <state relative-caret-position="544">
               <caret line="32" column="20" lean-forward="false" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
               <folding>
-                <marker date="1482577414787" expanded="true" signature="48:169" ph="create table... Categories" />
-                <marker date="1482577414787" expanded="true" signature="181:488" ph="create table... Items" />
-                <marker date="1482577414787" expanded="true" signature="502:911" ph="create table... Sales" />
-                <marker date="1482577414787" expanded="true" signature="885:911" ph="create table... Cities" />
-                <marker date="1482577414787" expanded="true" signature="923:1108" ph="create table... Hotels" />
-                <marker date="1482577414787" expanded="true" signature="1119:1377" ph="create table... Users" />
-                <marker date="1482577414787" expanded="true" signature="1391:1718" ph="create table... Comments" />
+                <marker date="1482577930229" expanded="true" signature="48:169" ph="create table... Categories" />
+                <marker date="1482577930229" expanded="true" signature="181:488" ph="create table... Items" />
+                <marker date="1482577930229" expanded="true" signature="502:911" ph="create table... Sales" />
+                <marker date="1482577930229" expanded="true" signature="885:911" ph="create table... Cities" />
+                <marker date="1482577930229" expanded="true" signature="923:1108" ph="create table... Hotels" />
+                <marker date="1482577930229" expanded="true" signature="1119:1377" ph="create table... Users" />
+                <marker date="1482577930229" expanded="true" signature="1391:1718" ph="create table... Comments" />
               </folding>
             </state>
           </provider>
@@ -107,15 +107,15 @@
             <state relative-caret-position="17">
               <caret line="1" column="91" lean-forward="false" selection-start-line="1" selection-start-column="91" selection-end-line="1" selection-end-column="91" />
               <folding>
-                <marker date="1482577485621" expanded="true" signature="649:659" ph="..." />
-                <marker date="1482577485621" expanded="true" signature="660:694" ph="..." />
-                <marker date="1482577485621" expanded="true" signature="856:866" ph="..." />
-                <marker date="1482577485621" expanded="true" signature="867:915" ph="..." />
-                <marker date="1482577485621" expanded="true" signature="969:1064" ph="insert into users... " />
-                <marker date="1482577485621" expanded="true" signature="1203:1213" ph="..." />
-                <marker date="1482577485621" expanded="true" signature="1214:1251" ph="..." />
-                <marker date="1482577485621" expanded="true" signature="1309:1319" ph="..." />
-                <marker date="1482577485621" expanded="true" signature="1320:1348" ph="..." />
+                <marker date="1482577930257" expanded="true" signature="649:659" ph="..." />
+                <marker date="1482577930257" expanded="true" signature="660:694" ph="..." />
+                <marker date="1482577930257" expanded="true" signature="856:866" ph="..." />
+                <marker date="1482577930257" expanded="true" signature="867:915" ph="..." />
+                <marker date="1482577930257" expanded="true" signature="969:1064" ph="insert into users... " />
+                <marker date="1482577930257" expanded="true" signature="1203:1213" ph="..." />
+                <marker date="1482577930257" expanded="true" signature="1214:1251" ph="..." />
+                <marker date="1482577930257" expanded="true" signature="1309:1319" ph="..." />
+                <marker date="1482577930257" expanded="true" signature="1320:1348" ph="..." />
               </folding>
             </state>
           </provider>
@@ -180,20 +180,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Store" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Store" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -203,6 +189,59 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="js.eslint.eslintPackage" value="" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -214,19 +253,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1482574029760</updated>
-      <workItem from="1482574032353" duration="3598000" />
+      <workItem from="1482574032353" duration="3919000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3598000" />
+    <option name="totallyTimeSpent" value="3919000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -319,13 +358,13 @@
         <state relative-caret-position="544">
           <caret line="32" column="20" lean-forward="false" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
           <folding>
-            <marker date="1482577414787" expanded="true" signature="48:169" ph="create table... Categories" />
-            <marker date="1482577414787" expanded="true" signature="181:488" ph="create table... Items" />
-            <marker date="1482577414787" expanded="true" signature="502:911" ph="create table... Sales" />
-            <marker date="1482577414787" expanded="true" signature="885:911" ph="create table... Cities" />
-            <marker date="1482577414787" expanded="true" signature="923:1108" ph="create table... Hotels" />
-            <marker date="1482577414787" expanded="true" signature="1119:1377" ph="create table... Users" />
-            <marker date="1482577414787" expanded="true" signature="1391:1718" ph="create table... Comments" />
+            <marker date="1482577930229" expanded="true" signature="48:169" ph="create table... Categories" />
+            <marker date="1482577930229" expanded="true" signature="181:488" ph="create table... Items" />
+            <marker date="1482577930229" expanded="true" signature="502:911" ph="create table... Sales" />
+            <marker date="1482577930229" expanded="true" signature="885:911" ph="create table... Cities" />
+            <marker date="1482577930229" expanded="true" signature="923:1108" ph="create table... Hotels" />
+            <marker date="1482577930229" expanded="true" signature="1119:1377" ph="create table... Users" />
+            <marker date="1482577930229" expanded="true" signature="1391:1718" ph="create table... Comments" />
           </folding>
         </state>
       </provider>
@@ -335,15 +374,15 @@
         <state relative-caret-position="17">
           <caret line="1" column="91" lean-forward="false" selection-start-line="1" selection-start-column="91" selection-end-line="1" selection-end-column="91" />
           <folding>
-            <marker date="1482577485621" expanded="true" signature="649:659" ph="..." />
-            <marker date="1482577485621" expanded="true" signature="660:694" ph="..." />
-            <marker date="1482577485621" expanded="true" signature="856:866" ph="..." />
-            <marker date="1482577485621" expanded="true" signature="867:915" ph="..." />
-            <marker date="1482577485621" expanded="true" signature="969:1064" ph="insert into users... " />
-            <marker date="1482577485621" expanded="true" signature="1203:1213" ph="..." />
-            <marker date="1482577485621" expanded="true" signature="1214:1251" ph="..." />
-            <marker date="1482577485621" expanded="true" signature="1309:1319" ph="..." />
-            <marker date="1482577485621" expanded="true" signature="1320:1348" ph="..." />
+            <marker date="1482577930257" expanded="true" signature="649:659" ph="..." />
+            <marker date="1482577930257" expanded="true" signature="660:694" ph="..." />
+            <marker date="1482577930257" expanded="true" signature="856:866" ph="..." />
+            <marker date="1482577930257" expanded="true" signature="867:915" ph="..." />
+            <marker date="1482577930257" expanded="true" signature="969:1064" ph="insert into users... " />
+            <marker date="1482577930257" expanded="true" signature="1203:1213" ph="..." />
+            <marker date="1482577930257" expanded="true" signature="1214:1251" ph="..." />
+            <marker date="1482577930257" expanded="true" signature="1309:1319" ph="..." />
+            <marker date="1482577930257" expanded="true" signature="1320:1348" ph="..." />
           </folding>
         </state>
       </provider>

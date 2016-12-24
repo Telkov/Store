@@ -1,4 +1,4 @@
-﻿<?php
+<?php
    // function connect($host="10.3.19.1", $user="root", $pass="123456", $dbname = "store777")
      function connect($host="localhost", $user="admin", $pass="123456", $dbname = "store777")
         {
