@@ -27,7 +27,7 @@
         
   	<?php
 
-  	include_once ('pages/functions.php');
+  	include_once ('pages/classes.php');
   	?>
     <!--Bootstrap's styles version!-->
         <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -62,11 +62,62 @@
             </div>
         </div>
         </nav>
-        <div class="container" style="margin-top: 40px">
-            <?php
-            include_once ('pages/menu.php')
-            ?>
+        <div class="row emptyrow">
+          
         </div>
+        
+<?php 
+    if(!isset($_POST['additem'])){
+
+?>
+    
+    <div class="container-fluid all-block__container_height">
+         
+
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 text-center">
+              <div class="container-fluid sidebar">
+                  <p><a href="#">Link</a></p>
+                  <p><a href="#">Link</a></p>
+                  <p><a href="#">Link</a></p>
+              </div>
+            </div>
+            
+            <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 main-content"> 
+                
+                <div class="container content">
+                  <?php
+                    include_once ('pages/menu.php')
+                  ?>
+                </div>
+               
+            </div>
+     
+<!--        <div class="container-fluid text-center footer">-->
+<!--          <p>Footer Text</p>-->
+<!--        </div>-->
+
+    </div>
+       
+
+        <?php
+            } else{
+                $path="";
+                if(is_uploaded_file($_FILES['imagepath']['tmp_name'])){
+                    $path = "images/Items/".$_FILES['imagepath']['name'];
+                    move_uploaded_file($_FILES['imagepath']['tmp_name'], $path);
+                }
+                $catid=$_POST['catid'];
+                $pricesale=$_POST['pricesale'];
+                $pricein=$_POST['pricein'];
+                $name=trim(htmlspecialchars($_POST['name']));
+                $info=trim(htmlspecialchars($_POST['info']));
+                $item=new Item($name, $catid, $pricein, $pricesale, $info, $path);
+                
+                $item->intoDb();
+
+            }
+        ?>
+
   
 
 	 </body>

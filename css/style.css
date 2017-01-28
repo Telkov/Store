@@ -1,0 +1,75 @@
+html{
+	width: 100%;
+	height: 100%;
+}
+.navbar{
+	margin-bottom: 0px;
+}
+.emptyrow{
+	height: 51px;
+}
+
+.addcat__cont1_style{
+    margin-top: 15px;
+    width: 100%;
+    height: 100%;
+}
+
+.Additem__inp1_style{
+    float: left;
+    width: 100%;
+}
+
+.Additem__txtar1_style{
+    float: left;
+    width: 100%;
+}
+
+.Additem__sel1_style{
+    float: left;
+    width: 100%;
+}
+
+.Additem__but1_style{
+}
+
+
+.form-horizontal .control-label {
+    text-align: left;
+}
+  	
+/* Set gray background color and 100% height */
+.sidebar {
+	padding-top: 15px;
+	background-color: #f1f1f1;
+	height: 100%;
+	margin-right: 0;
+
+}
+
+/* Set black background color, white text and some padding */
+.footer {
+	position: absolute;
+	width: 100vw;
+	background-color: #555;
+	color: white;
+	bottom: 0px;
+	padding: 0;
+}
+
+
+.all-block__container_height{
+	height: 100%;
+	padding: 0;
+}
+
+.main-content{
+}
+
+.content{
+	padding-top: 5px;
+}
+/*.sidenav{
+	height: 100%;
+}
+*/
